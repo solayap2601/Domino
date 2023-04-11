@@ -9,12 +9,13 @@ fichas = [(0, 0), (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6),
           ]
 
 def repartir_fichas():
+    copia = fichas.copy()
     players=[[], [], [], []]
     for i in players:
             for j in range(7):
-                    posicion = random.randint(0, len(fichas)-1)
-                    i.append(fichas[posicion])
-                    fichas.pop(posicion)
+                    posicion = random.randint(0, len(copia)-1)
+                    i.append(copia[posicion])
+                    copia.pop(posicion)
     return players
 
 a = repartir_fichas()
