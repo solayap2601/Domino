@@ -1,0 +1,17 @@
+digraph {
+	A [label="1. Identificar objetivos y requisitos"]
+	B [label="2. Seleccionar características relevantes"]
+	C [label="3. Definir criterios y valores esperados"]
+	D [label="4. Seleccionar técnicas y herramientas"]
+	E [label="5. Realizar evaluación de calidad de datos"]
+	F [label="6. Analizar resultados"]
+	G [label="7. Identificar áreas que necesitan mejoras"]
+	H [label="8. Definir e implementar plan de acción"]
+	A -> B
+	B -> C
+	C -> D
+	D -> E
+	E -> F
+	F -> G
+	G -> H
+}
